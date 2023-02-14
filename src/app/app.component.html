@@ -1,0 +1,55 @@
+<div class="text-center ">
+    <h1 class="nombre text-dark nombre ">CARLOS ALEXIS VAZQUEZ</h1>
+  </div>
+<div class="container"> 
+    <h1 class="text-center text-primary">Tabla para la api company</h1>         
+    <table class="table table-striped " >
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>founder</th>
+          <th>ceo</th>
+          <th>coo</th>
+          <th>summary</th>
+          <th>imagen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{company.id}}</td>
+          <td>{{company.name}}</td>
+          <td>{{company.founder}}</td>
+          <td>{{company.ceo}}</td>
+          <td>{{company.coo}}</td>
+          <td>{{company.summary}}</td>
+          <td><img src="data:image/jpeg;base64,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" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+    <div class="container"> 
+        <h1 class="text-center text-primary">Tabla para la api Capsules</h1>         
+        <table class="table table-striped " *ngFor="let item of capsule">
+          <thead>
+            <tr>
+              <th>launches</th>
+              <th>serial</th>
+              <th>status</th>
+              <th>type</th>
+              <th>last_update</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{item.launches}}</td>
+              <td>{{item.serial}}</td>
+              <td>{{item.status}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.last_update}}</td>
+
+            </tr>
+           
+          </tbody>
+        </table>
+    </div>
